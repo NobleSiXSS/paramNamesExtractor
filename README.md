@@ -6,7 +6,7 @@ If no filename is given to the script the params will be printed in the terminal
 
 #### Examples:
 ```
-python3 paramNameExtractor.py https://www.google.com?q=hello&id=lol
+python3 paramNameExtractor.py "https://www.google.com?q=hello&id=lol"
 ```
 ###### Output:
 ```
@@ -15,7 +15,7 @@ id
 ```
 ------------
 ```
-python3 paramNameExtractor.py https://www.google.com?q=hello&id=lol output.txt
+python3 paramNameExtractor.py "https://www.google.com?q=hello&id=lol" output.txt
 ```
 ###### Output
 
